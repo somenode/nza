@@ -1,4 +1,4 @@
-* {
+.table * {
   box-sizing: border-box;
   font-family: "franklin-gothic-urw", sans-serif;
 }
@@ -13,7 +13,7 @@
 
 .center {
   margin: 0 auto;
-  width: 80%;
+  width: 100%;
 }
 
 .table {
@@ -73,6 +73,15 @@ tr:nth-child(even):not(:first-child) {
 .ref {
   background-color: #7f7f7f;
   color: white;
+}
+
+.netzero-table-logo {
+  background: url(https://acee.princeton.edu/wp-content/themes/andlinger/img/princeton-university-logo.png)
+    no-repeat;
+  width: auto;
+  padding: 1em;
+  background-position: right;
+  background-size: 200px;
 }
 
 @media screen and (max-width: 991px) {
