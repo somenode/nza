@@ -49,20 +49,14 @@
 }
 
 th.top-row {
-  background-color: #e77500;
+  background-color: #006faa;
   color: white;
 }
 th.top-row > span {
-  color: black;
+  color: white;
+  font-style: italic;
 }
 
-th.top-row {
-  background-color: #e77500;
-  color: white;
-}
-th.top-row > span {
-  color: black;
-}
 th.side-row {
   background-color: #dcdadb;
   text-align: right;
@@ -124,8 +118,8 @@ tr:nth-child(even):not(:first-child) {
     width: 100%;
     text-align: center;
     display: block;
-    background-color: #e77500;
-    color: black;
+    background-color: #006faa;
+    color: #ffffff;
     margin: 0 auto;
     padding: 0.5em 0;
   }
