@@ -160,11 +160,26 @@
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
   }
+
+  .table td {
+    overflow: hidden;
+  }
+
   .table td[data-header]:before {
     content: attr(data-header);
     float: left;
     width: 50%;
     padding: 20px;
+  }
+  .table td[data-header]:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 50%;
+    border-right: 1px solid #EDF0F1;
+    padding-bottom: 200%;
+    display: block;
   }
   .table thead {
     position: absolute;
@@ -174,6 +189,11 @@
     height: 1px;
     width: 1px;
     overflow: hidden;
+  }
+  .table p {
+    float: right;
+    width: 40%;
+    text-align: left;
   }
 }
 .ui.table td .image,
