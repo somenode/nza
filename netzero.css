@@ -19,6 +19,8 @@
   color: rgba(0, 0, 0, 0.87);
   border-collapse: separate;
   border-spacing: 0;
+  font-family: Franklin Gothic Medium, Franklin Gothic, ITC Franklin Gothic,
+    sans-serif;
 }
 .ui.table:first-child {
   margin-top: 0;
@@ -930,4 +932,10 @@ tr:nth-child(even):not(:first-child) {
 .table p.table-data {
   margin: 0;
   padding: 0.7em 0em;
+}
+
+.table-caption {
+  font-size: 14px;
+  text-align: left;
+  padding-top: 0.5em;
 }
