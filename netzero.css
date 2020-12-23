@@ -164,7 +164,7 @@
     content: attr(data-header);
     float: left;
     width: 50%;
-    padding: 15px;
+    padding: 20px;
   }
   .table thead {
     position: absolute;
@@ -927,11 +927,6 @@ tr:nth-child(even):not(:first-child) {
   padding: 1em;
   background-position: right;
   background-size: 200px;
-}
-
-.table p.table-data {
-  margin: 0;
-  padding: 0.7em 0em;
 }
 
 .table-caption {
