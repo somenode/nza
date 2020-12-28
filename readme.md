@@ -8,8 +8,10 @@ To ensure this data is accessible and mobile responsive, this chart was created 
 
 [View on CodePen](https://codepen.io/somenode/pen/OJRjGxL)
 
-## Additional accessibility resources
+## Additional accessibility and design resources
 
 - [W3](https://www.w3.org/WAI/tutorials/tables/two-headers/)
 - [Princeton Digital Accessibility](https://accessibility.princeton.edu/how/content/tables)
+- [Semantic UI table](https://semantic-ui.com/collections/table.html)
+- [Fomantic UI](https://fomantic-ui.com/)
 - [WebAdvanced](https://codepen.io/WebAdvanced/pen/MKqJeB)
